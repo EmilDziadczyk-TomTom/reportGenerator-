@@ -1,7 +1,7 @@
 import json
 
-# Read JSON data from the input file
-with open('input.json', 'r') as file:
+# Read JSON data from the input file - registry.json - OPD layer registry file
+with open('registry.json', 'r') as file:
     data = json.load(file)
 
 # Extract and list unique contacts
