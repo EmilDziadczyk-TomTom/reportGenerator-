@@ -8,3 +8,8 @@ How to use it: puthon3 listLayers.py layer_ID
 
 2. showLayerContact.py - list layer IDs and contacts from registry.json, can also list layer descriptions
 How to use it: showLayerContact.py --layer_ids 666 667
+
+
+Next steps:
+- add configuration to list contacts in proper format
+- add integration with github so there is no need for copying registry.json
