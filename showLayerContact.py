@@ -21,9 +21,11 @@ filtered_layers = [layer for layer in data['layers'] if layer['layer_id'] in arg
 
 # print filtered layers and their contact
 print(f"===================================================")
-
+nbrOfLayers :int = 0;
 for layer in filtered_layers:
+     nbrOfLayers += 1
 #     print(f"Layer ID: {layer['layer_id']}, Description: {layer['description']}")
      print(f"Layer ID: {layer['layer_id']}, Contact: {layer['contact']}, Description: {layer['description']}")
 #      print(f"Contact: {layer['contact']}")
+print(f"Total number of layers: {nbrOfLayers}")
 print(f"===================================================")
