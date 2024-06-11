@@ -1,4 +1,4 @@
-# reportGenerator-
+# reportGenerator- depracated - please double check before you use it
 Test repository to check the possibility of automating reporting tools
 Added one script listLayers.py to easily check a number of layers with specific parent or subscriptin. 
 
